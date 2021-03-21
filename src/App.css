@@ -1,0 +1,128 @@
+.header{
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.7);
+}
+.navbar-nav span {
+  color: #fff;
+  font-weight: 600;
+}
+.riders{
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(./images/Bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding: 200px 0 300px;
+}
+.card {
+  padding-top: 30px;
+  border: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 20px 60px -30px rgb(0 0 0 / 60%);
+    -moz-box-shadow: 0px 20px 60px -30px rgba(0,0,0,.6);
+  box-shadow: 0px 20px 60px -30px rgb(0 0 0 / 60%);
+  margin-bottom: 20px;
+}
+img.card-img-top {
+  width: 50%;
+  margin: 0 auto;
+  height: 100px;
+}
+.card-title {
+  margin-bottom: .75rem;
+  cursor: pointer;
+}
+.common{
+  padding-top: 100px;
+  /* text-align: center; */
+}
+.login {
+  border: 1px solid #ebdfdf;
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 15px;
+}
+.login-btn{
+  border: 1px solid #ebdfdf;
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+button.login-btn span {
+  position: absolute;
+  left: 20px;
+}
+.search-ride,.search-result{
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 40px 25px;
+}
+.search-ride input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.search-ride label{
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+}
+.search-ride h4{
+  text-transform: capitalize;
+}
+.rider-btn {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: #e94607;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.search-result ul{
+  margin: 0;
+  padding: 0;
+}
+.search-result ul li{
+  list-style: none;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.search-result ul li img,
+.search-result h4 img{
+  width: 40px;
+}
+.search-result ul li img{
+  position: absolute;
+  left: 15%; 
+}
+.search-result ul li span{
+  position: absolute;
+  right: 15%; 
+}
+.destination{
+  background-color: #e94607;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.destination p{
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
